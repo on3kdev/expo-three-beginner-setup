@@ -46,7 +46,7 @@ export default function App() {
             camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
             camera.position.z = 5;
 
-            const geometry = new THREE.BoxBufferGeometry(1, 2, 1);
+            const geometry = new THREE.BoxBufferGeometry(1, 1, 1);
             const material = new THREE.MeshPhongMaterial({
               color: 0xff0000,
             });
@@ -77,8 +77,8 @@ export default function App() {
             renderer.setSize(width, height);
           }}
           onRender={(delta: number) => {
-            cube.rotation.z += 4 * delta;
-            cube.rotation.y += 1 * delta;
+            cube.rotation.z += 2 * delta;
+            cube.rotation.y += 2 * delta;
 
             renderer.render(scene, camera);
           }}

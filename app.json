@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "space-trip",
-    "slug": "space-trip",
+    "name": "expo-three-beginner-setup",
+    "slug": "expo-three-beginner-setup",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
